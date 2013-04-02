@@ -1,0 +1,283 @@
+.tablas {
+	
+	width:98%; 
+	text-align:left;
+	font-weight: bolder;	
+}
+table{
+	margin: auto;
+	border-top: 6px double black;
+	box-shadow:0px 0px 2px black inset,0px 0px 2px blue inset;
+}
+.tablas tr th{
+	padding: 5px;
+	border-bottom: 3px solid black;
+	border-left: 2px solid black;
+	border-right: 2px solid black;
+	text-align: center;
+	height: 40px;
+
+
+}
+.tablas tr td{
+	padding-left: 10px;
+	border: 3px solid transparent;
+	text-align: left;
+	height: 40px;
+}
+tr:nth-child(odd) 
+{
+ background: #DEEAF0;
+}
+tr:nth-child(even) 
+{
+ background: #79ACC4 
+}
+
+
+.letras{
+	margin: auto;
+	margin-top:-20px;
+	box-shadow: 2px 2px 1px #919191 inset,-2px -2px 1px #FAFAFA inset;
+	-ms-box-shadow: 2px 2px 1px #919191 inset,-2px -2px 1px #FAFAFA inset;
+	-moz-box-shadow: 2px 2px 1px #919191 inset,-2px -2px 1px #FAFAFA inset;
+	-o-box-shadow: 2px 2px 1px #919191 inset,-2px -2px 1px #FAFAFA inset;
+	-webkit-box-shadow: 2px 2px 1px #919191 inset,-2px -2px 1px #FAFAFA inset;
+    color: #6F7A81;
+    font-size: 2.8em;
+    font-weight:bolder;
+    padding:0;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+    width: 50%;
+    text-align: right;
+    text-shadow: 2px 1px 1px black;
+    background: #EFF1F0;
+    border-radius: 10px;
+}
+
+.letraslink{
+	cursor:pointer;
+	font-weight: bolder;
+	text-decoration: none;
+	margin-left: 11px;
+	margin-top: -22px;
+	background: #79ACC4;
+	border-radius: 10px 10px 0 0 ;
+	position:absolute;
+	width: 190px;
+	padding:10px 0px;
+	text-align: center;
+	box-shadow: 2px 2px 1px black inset,-2px -2px 1px #FAFAFA inset;
+	-ms-box-shadow: 2px 2px 1px black inset,-2px -2px 1px #FAFAFA inset;ç
+	-moz-box-shadow: 2px 2px 1px black inset,-2px -2px 1px #FAFAFA inset;
+	-o-box-shadow: 2px 2px 1px black inset,-2px -2px 1px #FAFAFA inset;
+	-webkit-box-shadow: 2px 2px 1px black inset,-2px -2px 1px #FAFAFA inset;
+}
+#formulario{
+	margin: 0 auto;
+	margin-top: -20px;
+	width: 90%;
+}
+#formulario p{
+	margin:auto;
+	padding-left: 60px;
+	margin-top: -10px;
+}
+.conteformulario{
+	background: red;
+	margin:auto;
+	width:80%;
+	height: 50px;
+	color: red;
+}
+.entradas{
+	background: #DEEAF0;
+	box-shadow: 1px 1px 1px #919191 inset,-1px -1px 1px #FAFAFA inset;
+	-ms-box-shadow: 1px 1px 1px #919191 inset,-1px -1px 1px #FAFAFA inset;
+	-moz-box-shadow: 1px 1px 1px #919191 inset,-1px -1px 1px #FAFAFA inset;
+	-o-box-shadow: 1px 1px 1px #919191 inset,-1px -1px 1px #FAFAFA inset;
+	-webkit-box-shadow: 1px 1px 1px #919191 inset,-1px -1px 1px #FAFAFA inset;
+	padding-left: 5px;
+	height:30px;
+	width:35%;
+	font-size: 15px;
+	margin-left: 50px;
+	transition:all 0.6s ease;
+    -ms-transition:all 0.6s ease;
+    -moz-transition:a:hoverll 0.6s ease;
+    -o-transition:all 0.6:hovers ease;
+    -webkit-transition:all:hover 0.6s ease;
+}
+.entradas:focus{
+	background:#F4F9FB;
+	box-shadow: 2px 2px 2px #606060 inset,-1px -1px 1px #FAFAFA inset;
+	-ms-box-shadow: 2px 2px 2px #606060 inset,-1px -1px 1px #FAFAFA inset;
+	-moz-box-shadow: 2px 2px 2px #606060 inset,-1px -1px 1px #FAFAFA inset;
+	-o-box-shadow: 2px 2px 2px #606060 inset,-1px -1px 1px #FAFAFA inset;
+	-webkit-box-shadow: 2px 2px 2px #606060 inset,-1px -1px 1px #FAFAFA inset;
+}
+.label {
+	padding: 5px;
+	display:block;
+	margin-top: -11.5em;
+	margin-left: 450px;
+	margin-bottom: 20px;
+}
+.label>label{
+	margin-left: 0px;
+	position: absolute;
+	margin-top: -10px;	
+}
+
+textarea{
+	width: 468px;
+	height: 200px;
+	font-size: 15px;
+	background: #DEEAF0;
+	box-shadow: 1px 1px 1px #919191 inset,-1px -1px 1px #FAFAFA inset;
+	-ms-box-shadow: 1px 1px 1px #919191 inset,-1px -1px 1px #FAFAFA inset;
+	-moz-box-shadow: 1px 1px 1px #919191 inset,-1px -1px 1px #FAFAFA inset;
+	-o-box-shadow: 1px 1px 1px #919191 inset,-1px -1px 1px #FAFAFA inset;
+	-webkit-box-shadow: 3px 3px 1px #919191 outset,-1px -1px 1px white inset;
+	margin-top: 20px;
+	padding-left: 5px;
+	padding-top: 5px;
+	transition:all 0.6s ease;
+    -ms-transition:all 0.6s ease;
+    -moz-transition:a:hoverll 0.6s ease;
+    -o-transition:all 0.6:hovers ease;
+    -webkit-transition:all:hover 0.6s ease;
+}
+textarea:focus{
+	background:#F4F9FB;
+	box-shadow: 2px 2px 2px #606060 inset,-1px -1px 1px #FAFAFA inset;
+	-ms-box-shadow: 2px 2px 2px #606060 inset,-1px -1px 1px #FAFAFA inset;
+	-moz-box-shadow: 2px 2px 2px #606060 inset,-1px -1px 1px #FAFAFA inset;
+	-o-box-shadow: 2px 2px 2px #606060 inset,-1px -1px 1px #FAFAFA inset;
+	-webkit-box-shadow: 2px 2px 2px #606060 inset,-1px -1px 1px #FAFAFA inset;
+}
+#respuesta{
+	margin:auto;
+}
+.subtitulos{
+	padding: 5px;
+	background: #79ACC4;
+	width: 200px;
+	margin-left: 49px;
+	margin-top: 3px;
+	border-radius: 0px 20px 0 0 ;
+	box-shadow:2px 2px 1px black inset;
+
+}
+label.subtitulos.sub1{
+	margin-left: 250px;
+	margin-top: -11px;
+	position:absolute;
+}
+.errors{
+	width: 680px;
+	height: 30px;
+	color: black;
+	font-size:22px;
+	font-weight: bolder;
+	text-shadow:1px 1px 2px red;
+	padding: 10px;
+	text-align: center;
+	margin: auto;
+}
+.centrar{
+	margin-left: 320px;
+}
+#submit{
+	position: relative;
+	background: #79ACC4;
+	border-radius:0 0 20px 20px;
+	box-shadow: -1px -1px 1px black inset;
+	width: 150px;
+	height: 40px;
+	font-size: 15px;
+	font-weight: bolder;
+	transition:all 0.3s linear;
+    -ms-transition:all 0.3s linear;
+    -moz-transition:all 0.3s linear;
+    -o-transition:all 0.3s linear;
+    -webkit-transition:all 0.3s linear;
+}
+#submit:hover{
+	cursor:pointer;
+	color:white;
+	border-radius:0 0 0 0;
+	background: #417994;
+}
+/*guardar nueva reunion*/
+.guardar{
+	margin-left:328px; 
+	margin-top:1px;
+}
+.guardarfoto{
+	margin-left:340px; 
+	margin-top: 1px;	
+}
+.responder1{
+	margin-left: 582px;
+	margin-top: 1px;
+	position: absolute;
+}
+.guardarcontra{
+	margin-left: 521px;
+	margin-top: 2px;
+}
+/*boton guardar nueva empresa*/
+.resp{
+	position: relative;
+	
+	background: #79ACC4;
+	border-radius:0 0 20px 20px;
+	box-shadow:-2px -2px 2px black inset;
+	width: 150px;
+	height: 40px;
+	margin-top: 2px;
+	margin-left: 520px;
+}
+.respempre{
+   margin-left: 520px;
+   margin-top: 2px;	
+}
+textarea.label{
+	margin:auto;
+	margin-top: 20px;
+}
+.botones{
+	background: red;
+}
+/*#barramenu,#menunave,#menuhorizontal,li.listas{
+	color:white;
+}
+.buttonsende{
+	text-shadow:  1px  0px 0 #bbb,
+                    2px  0px 0 #bbb,
+                    3px  0px 0 #aaa,
+                    4px  0px 0 #aaa,
+                    5px  0px 0 #999,
+                    6px  0px 1px #000,
+                   0 0px 3px #000,
+                    1px  0px 3px #000,
+                    3px  0px 5px #000,
+                5px  0px 5px #000,
+                5px  0px 10px #000;
+                 background:none;
+  border:0px solid black;
+  cursor: pointer; 
+  text-decoration: none;
+  height:40px;
+  width:120px;
+  padding:0px;
+  margin-top: 0.5em;
+  margin-left: 10px;
+  position:absolute;
+  text-align: center;
+  font-size:29px;
+  font-weight:bolder;
+  color: white;
+}*/

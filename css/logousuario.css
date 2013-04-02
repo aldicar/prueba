@@ -1,0 +1,125 @@
+.logos{
+  border-radius:5px;
+  border: 2px solid #FCED76;
+}
+#letralogo{
+  font-family: 'Stencil','Russel Write TT', serif;
+  font-size:45px;
+  position: absolute;
+  text-shadow: 2px -2px 2px rgba(230,230,230,1), 
+  -2px 2px 2px rgba(0,0,9,1);
+  margin-top:15px;
+  margin-left: 5px;
+   color:#00619C;
+}
+#soluciones2{
+display:inline-block;
+margin-left:135px;
+position:absolute;
+}
+.nombres{
+ padding-bottom:-10px;
+ margin-left:10px;
+ margin-top:5px;
+ font-size:27px;
+ font-family: sans-serif;
+ font-weight:bold;
+ color:white;
+ text-shadow:  -1px  0px 0 #bbb,
+                    -2px  0px 0 #bbb,
+                    -3px  0px 0 #aaa,
+                    -4px  0px 0 #aaa,
+                    -5px  0px 0 #999,
+                    -6px  0px 1px #000,
+                   0 0px 3px #000,
+                    -1px  0px 3px #000,
+                    -3px  0px 5px #000,
+                -5px  0px 5px #000,
+                -5px  0px 10px #000;
+}
+#contelogo{
+  display:block;
+  height:115px;
+  width:0px;
+  top: 0px;
+  background:red;
+  /*box-shadow:0 0 30px black inset,0px 0px 100px #E02E2E inset,0 0 150px #C82329 inset,
+  0 0 200px #B51F21 inset,0 0 250px #9A1216 inset,
+  0 0 300px #91070C inset,0 0 450px #FCED76 inset,50px 50px 10px white inset;*/
+  box-shadow:0 0 100px black inset,0 0 200px #AA0000 inset,0px 0px 150px #E60000 inset,0 0 150px yellow inset;
+   border:5px #FDEC76 outset;
+   border-radius:200px 20px 20px 170px;
+   -webkit-border-radius:200px 20px 20px 170px;
+   -o-border-radius:200px 20px 20px 170px;
+   -moz-border-radius:200px 20px 20px 170px;
+   -ms-border-radius:200px 20px 20px 170px;
+   opacity:1;
+   width:350px;
+}
+#logo2{
+   background:white; 
+   height:80px;
+   width:80px;
+   margin-top:25px;
+    margin-left:15px;
+    opacity:1;
+    box-shadow:-1px -1px 1px black,-1px -1px 2px #009BE7,
+    -3px -3px 2px #009BE7,-5px -5px 2px #009BE7,
+    -7px -7px 2px #009BE7,-9px -9px 2px #009BE7,0px 0px 30px #094DCC inset,
+    0px 0px 50px #005BA1 inset,0px 0px 100px #009BE7 inset,
+    0px 0px 100px #00BDE6 inset;
+    transform: skewY(-10deg)  rotateY(-15deg);
+   -webkit-transform: skewY(-10deg)  rotateY(-15deg);
+   -o-transform: skewY(-10deg);
+   -moz-transform: skewY(-10deg)  rotateY(-15deg);
+   -ms-transform: skewY(-10deg)  rotateY(-15deg);
+
+
+ }
+#logo1{
+   background:white;
+   position:absolute;
+   height:80px;
+   width:80px;
+   transform: skewY(-10deg)  rotateY(-15deg);
+   -webkit-transform: skewY(-10deg)  rotateY(-15deg);
+   -o-transform: skewY(-10deg);
+   -moz-transform: skewY(-10deg)  rotateY(-15deg);
+   -ms-transform: skewY(-10deg)  rotateY(-15deg);
+   opacity:1;
+    margin-top:6px;
+    margin-left:-5px;
+    box-shadow:-1px -1px 1px black,-1px -1px 2px #FFD100,
+    -3px -3px 2px #FFD100,-5px -5px 2px #FFD100,
+    -7px -7px 2px #FFD100,-9px -9px 2px #FFD100,0px 0px 50px #FA731C inset,0px 0px 100px #FFD100 inset,0px 0px 100px #FFF800 inset;
+}
+#logo3{
+  display: inline-block;
+  height:80px;
+  margin-top:-64px;
+  margin-left:36px;
+  position:absolute;
+  width:80px;
+  z-index:10;
+  opacity: 1;
+  background: white;
+  transform:skewY(-10deg)rotateY(-15deg);
+  -webkit-transform:skewY(-10deg)rotateY(-15deg);
+  -o-transform:skewY(-10deg);
+  -moz-transform:skewY(-10deg)rotateY(-15deg);
+  -ms-transform:skewY(-10deg)rotateY(-15deg);
+
+  box-shadow:-1px -1px 1px black,-1px -1px 2px #EB1C24,
+  -3px -3px 2px #EB1C24,-5px -5px 2px #EB1C24,-7px -7px 2px #EB1C24,
+  -9px -9px 2px #EB1C24,0px 0px 60px #BC131A inset,0px 0px 100px #EB1C24 inset,0px 0px 200px #6B0800 inset;
+  border-radius:5px;
+}
+#passwordmodal{
+  color: black;
+  font-size: 0.9em;
+  font-family: "trebuchet ms",sans-serif;
+  margin-top: -18px;
+}
+#passwordmodal:hover{
+  color: red;
+}
